@@ -1,28 +1,37 @@
-.App {
+h1{
+  font-family: 'Cinzel';
+  color:  #117470;
+}
+
+body{
+  background-image: linear-gradient(to left bottom, #050e1c, #0a2636, #003f4f, #005963, #117470);
+}
+
+.container{
+  padding-top: 5px;
+  padding-left: 163px;
+  padding-right: 155px;
+}
+
+#header{
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#score{
+  text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+h3{
+  text-align: center;
+  color:  #117470;
+  font-family: 'Cinzel';
 }
 
-.App-title {
-  font-size: 1.5em;
+img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  float: left;
+  text-align: center;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
